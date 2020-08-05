@@ -8,15 +8,19 @@
   flex-grow: 1;
   position: relative;
   max-width: 40%;
-  padding: 5px;
+  margin: 4px;
 }
 
-.tall {
-  width: 10%;
+.small {
+  max-width: 10%;
+}
+
+.medium {
+  max-width: 23%;
 }
 
 .wide {
-  width: 25%;
+  max-width: 25%;
 }
 
 .image {
@@ -33,6 +37,7 @@
   right: 0;
   height: 100%;
   width: 100%;
+  margin: auto;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.5);
@@ -44,12 +49,12 @@
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
   transform: translate(-50%, -50%);
   text-align: center;
 }
