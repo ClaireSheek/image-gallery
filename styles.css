@@ -1,6 +1,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imageBox {
@@ -12,18 +13,21 @@
 }
 
 .small {
-  max-width: 10%;
+  max-width: 150px;
+  max-height: 250px;
 }
 
 .medium {
-  max-width: 23%;
+  max-width: 255px;
+  max-height: 250px;
 }
 
 .wide {
-  max-width: 25%;
+  max-width: 340px;
+  max-height: 250px;
 }
 
-.image {
+img {
   display: block;
   width: 100%;
   height: 100%;
